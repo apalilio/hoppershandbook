@@ -73,8 +73,8 @@ CSS TABLE OF CONTENTS
     --color-hero-text: rgba(0, 0, 0, 0.8);
     --color-hero-headings: #966A6A;
 
-    --color-sitefooter-background: rgb(100 100 100);
-    --color-sitefooter-text: rgb(255 255 255 / .8);
+    --color-sitefooter-background: rgb(110, 110, 110);
+    --color-sitefooter-text: 0, 0, 0;
     --color-sitefooter-headings: rgb( 255 255 255 / 1);
     --color-sitefooter-links: rgb(255 255 255);
 
@@ -577,7 +577,7 @@ body {
 
 /* SECTION */
 section {
-    padding: var(--unit-large) var(--unit-small);
+    padding: var(--unit-medium) var(--unit-small);
 }
 
 /* HERO SECTION */
@@ -633,11 +633,12 @@ section {
     .site-footer-nav {
         ul {
             margin: 0;
-            padding: 2rem;
+            padding: 1em;
             list-style: none;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
+            gap: var(--unit-small);
         }
     }
 }
