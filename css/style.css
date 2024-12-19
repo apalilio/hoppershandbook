@@ -840,9 +840,6 @@ html {
     width: 100%;
     text-align: center;
 
-    p { 
-        text-align: left;
-    }
 }
 
 .section-two {
@@ -1001,3 +998,16 @@ h2 {
 
 
 
+/* Behavior */
+.one-half earshake {
+
+    ul {
+        position: absolute;
+        margin-top: 25%;
+        list-style: none;
+    }
+
+    ul li {
+        list-style: none;
+    }
+}
